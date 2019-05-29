@@ -1,0 +1,162 @@
+[
+  {
+    "oraType": "BFILE",
+    "mySQLType": "VARCHAR",
+    "convertable": "N"
+  },
+  {
+    "oraType": "BINARY_FLOAT",
+    "mySQLType": "FLOAT",
+    "convertable": "N"
+  },
+  {
+    "oraType": "BINARY_DOUBLE",
+    "mySQLType": "DOUBLE",
+    "convertable": "N"
+  },
+  {
+    "oraType": "BLOB",
+    "mySQLType": "LONGBLOB",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "CHAR",
+    "mySQLType": "CHAR",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "CHARACTER",
+    "mySQLType": "CHARACTER",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "CLOB",
+    "mySQLType": "LONGTEXT",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "DATE",
+    "mySQLType": "DATETIME",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "DECIMAL",
+    "mySQLType": "double",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "DEC",
+    "mySQLType": "double",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "DOUBLE PRECISION",
+    "mySQLType": "double",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "FLOAT",
+    "mySQLType": "DOUBLE",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "INTEGER",
+    "mySQLType": "double",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "INTERVAL YEAR",
+    "mySQLType": "VARCHAR(30)",
+    "convertable": "N"
+  },
+  {
+    "oraType": "INTERVAL DAY",
+    "mySQLType": "VARCHAR(30)",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "LONG",
+    "mySQLType": "LONGTEXT",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "LONG RAW",
+    "mySQLType": "LONGBLOB",
+    "convertable": "N"
+  },
+  {
+    "oraType": "NCHAR",
+    "mySQLType": "char(2)",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "NCHAR VARYING",
+    "mySQLType": "varchar(40)",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "NCLOB",
+    "mySQLType": "longtext",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "NUMBER",
+    "mySQLType": "DOUBLE",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "NUMERIC",
+    "mySQLType": "DOUBLE",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "NVARCHAR2",
+    "mySQLType": "varchar(40)",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "RAW",
+    "mySQLType": "BINARY/VARBINARY",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "REAL",
+    "mySQLType": "DOUBLE",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "ROWID",
+    "mySQLType": "CHAR",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "SMALLINT",
+    "mySQLType": "double",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "TIMESTAMP",
+    "mySQLType": "DATETIME",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "UROWID",
+    "mySQLType": "char(18)",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "VARCHAR",
+    "mySQLType": "VARCHAR",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "VARCHAR2",
+    "mySQLType": "VARCHAR",
+    "convertable": "Y"
+  },
+  {
+    "oraType": "XMLTYPE",
+    "mySQLType": "LONGTEXT",
+    "convertable": "X"
+  }
+]
