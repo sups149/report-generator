@@ -1,0 +1,15 @@
+server:
+  port: 8085
+
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    hikari:
+      connection-timeout: 60000
+      maximum-pool-size: 5
+  profiles:
+    active: oracle
+
+sqlquery:
+  datatype: SELECT DISTINCT TABLE_NAME,COLUMN_NAME, DATA_TYPE,DATA_TYPE_OWNER,OWNER FROM ALL_TAB_COLUMNS where DATA_TYPE_OWNER not in ('SYS','MDSYS','PUBLIC')

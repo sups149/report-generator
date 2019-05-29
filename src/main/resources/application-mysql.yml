@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    #url: jdbc:mysql://40.115.13.141:3306/cmadb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/cmadb?useSSL=false&requireSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    #username: cmamysql
+    username: cmamysql
+    password: K0lkata123
